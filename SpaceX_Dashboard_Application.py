@@ -16,7 +16,7 @@ app = dash.Dash(__name__)
 
 #Creating the layout
 app.layout =html.Div(children=[html.H1('SpaceX Launch Records Dashboard', style={'textAlign': 'center', 'color': 'black', 'font-size': 40, 'font-family': 'Arial'}),
-                               html.H2('by Ayush Priyam', style={
+                               html.H2('by Kapil Kumar', style={
                                        'textAlign': 'center', 'color': 'black', 'font-size': 15, 'font-family': 'Arial'}),
                                html.Br(),
                                dcc.Dropdown(id='site-dropdown', options=[
